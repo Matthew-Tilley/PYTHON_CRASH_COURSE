@@ -1,11 +1,18 @@
 ###LIST SORTING
 
-places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
+random = ["duck", "gator", "penguin", "python", "turkey", "salamander"]
 
-print(len(places))
+print(random)
 
-jibberish = "LKASJDLKJASLKJAKSLDJLKSADJ"
-print(len(jibberish))
+
+
+
+##places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
+##
+##print(len(places))
+##
+##jibberish = "LKASJDLKJASLKJAKSLDJLKSADJ"
+##print(len(jibberish))
 
 
 
