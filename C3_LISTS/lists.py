@@ -2,29 +2,55 @@
 
 random = ["duck", "gator", "penguin", "python", "turkey", "salamander"]
 
-print(random)
+my_list = ["duck", "goat", "dog", "canoe"]
 
+my_list.append("turkey")
+
+##my_list.reverse()
+
+print(my_list)
 print(len(random))
+print(random[6])
 
-print(random[1])
 
-print(random[-1])
+##nope = my_list.pop(2)
+##
+##print(my_list)
+##print(nope)
 
-print(random[3])
 
-random.append("dog")
-print(random)
-print(random[-1])
+##print(random)
+##
+##random.pop()
+##print(random)
 
-random.insert(3, "whale")
-print(random)
-print(random[3])
+##random.insert(2, "blurp")
+##print(random)
+##print(random[2])
 
-del(random[3])
-print(random)
+##print(len(random))
+##
+##print(random[1])
+##
+##print(random[-1])
+##
+##print(random[3])
+##
+##random.append("dog")
+##print(random)
+##print(random[-1])
+##
+##random.insert(3, "whale")
+##print(random)
+##print(random[3])
+##
+##del(random[3])
+##print(random)
+##
+##random.pop()
+##print(random)
 
-random.pop()
-print(random)
+
 
 
 ##places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
