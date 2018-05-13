@@ -19,10 +19,13 @@ guests.append("manzier")
 guests.append("hawking")
 guests.append("smith")
 
-guests.insert(0, "Nelson")
+guests.insert(0, "nelson")
+guests.insert(3, "lewis")
+
 
 
 print(guests)
+
 
 
 
