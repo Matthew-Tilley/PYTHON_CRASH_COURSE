@@ -18,7 +18,13 @@ guests.append("kaku")
 guests.append("manzier")
 guests.append("hawking")
 guests.append("smith")
+
+guests.insert(0, "Nelson")
+
+
 print(guests)
+
+
 
 print("Hey " + guests[0] + "  " + "we found a bigger table; party on!!!")
 print("Hey " + guests[1] + "  " + "we found a bigger table; party on!!!")
