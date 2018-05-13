@@ -1,6 +1,18 @@
-motorcycles = ["honda", "yamaha", "suzuki"]
-motorcycles.append("Ducati")
+motorcycles = []
+
+motorcycles.append("Harley-Davidson")
+motorcycles.append("Honda")
+motorcycles.append("Suzuki")
+
+motorcycles[0] = "harley-davidson"
+motorcycles[1] = "honda"
+motorcycles[2] = "suzuki"
+
 print(motorcycles)
+
+##motorcycles = ["honda", "yamaha", "suzuki"]
+##motorcycles.append("Ducati")
+##print(motorcycles)
 
 
 ##print(motorcycles)
