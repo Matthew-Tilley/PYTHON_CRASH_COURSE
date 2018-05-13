@@ -1,6 +1,13 @@
-message = 'One of Python's strengths is its diverse community.'
+#2-3 PERSONAL MESSAGE
+first_name = "Joe"
+
+message = "Hello, " + " " + first_name + " ...would you like to learn some Python today?"
 
 print(message)
+
+##message = 'One of Python's strengths is its diverse community.'
+##
+##print(message)
 
 ##favorite_language = "         Python         "
 ##
