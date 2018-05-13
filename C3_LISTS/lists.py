@@ -1,8 +1,12 @@
 ###LIST SORTING
 
 places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
+places.append("Wales")
 
 print(places)
+
+alphabetical = sorted(places)
+print(alphabetical)
 
 
 
