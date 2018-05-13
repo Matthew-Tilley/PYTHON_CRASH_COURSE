@@ -4,7 +4,27 @@ random = ["duck", "gator", "penguin", "python", "turkey", "salamander"]
 
 print(random)
 
+print(len(random))
 
+print(random[1])
+
+print(random[-1])
+
+print(random[3])
+
+random.append("dog")
+print(random)
+print(random[-1])
+
+random.insert(3, "whale")
+print(random)
+print(random[3])
+
+del(random[3])
+print(random)
+
+random.pop()
+print(random)
 
 
 ##places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
