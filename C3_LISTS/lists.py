@@ -5,7 +5,11 @@ places.append("Wales")
 
 places.reverse()
 print(places)
+
+places.reverse()
 print(places)
+
+
 
 
 
