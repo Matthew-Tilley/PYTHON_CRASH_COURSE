@@ -1,34 +1,43 @@
-motorcycles = []
+#3-4 GUEST LIST
+guests = ["einstein", "sagan", "hawking", "tyson" ]
 
-motorcycles.append("Harley-Davidson")
-motorcycles.append("Honda")
-motorcycles.append("Suzuki")
+print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
 
-##motorcycles[0] = "harley-davidson"
-##motorcycles[1] = "honda"
-##motorcycles[2] = "suzuki"
+
+##motorcycles = []
+##
+##motorcycles.append("Harley-Davidson")
+##motorcycles.append("Honda")
+##motorcycles.append("Suzuki")
+##
+####motorcycles[0] = "harley-davidson"
+####motorcycles[1] = "honda"
+####motorcycles[2] = "suzuki"
+####
+####print(motorcycles)
+##
+##motorcycles.insert(0,"indian")
+##
+####print(motorcycles)
+####print(motorcycles[0].title())
+##
+##motorcycles.insert(2, "moped")
+##
+####print(motorcycles)
+##
+##motorcycles.append("ducati")
 ##
 ##print(motorcycles)
-
-motorcycles.insert(0,"indian")
-
+##
+##too_expensive = "ducati"
+##motorcycles.remove(too_expensive)
 ##print(motorcycles)
-##print(motorcycles[0].title())
-
-motorcycles.insert(2, "moped")
-
-##print(motorcycles)
-
-motorcycles.append("ducati")
-
-print(motorcycles)
-
-too_expensive = "ducati"
-motorcycles.remove(too_expensive)
-print(motorcycles)
-
-message = "Those " + too_expensive + " bikes are a bit pricey for my tastes."
-print(message)
+##
+##message = "Those " + too_expensive + " bikes are a bit pricey for my tastes."
+##print(message)
 
 
 
