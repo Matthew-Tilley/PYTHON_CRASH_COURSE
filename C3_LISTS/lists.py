@@ -1,13 +1,24 @@
 ###LIST SORTING
 
-cars = ["toyota", "chevrolet", "subaru", "honda", "bmw", "audi", "ford"]
-print(cars)
-cars.reverse()
-print(cars)
-cars.reverse()
-print(cars) #NOW BACK IN THE ORIGINAL SORTED ORDER
-print(len(cars))
-print("There are " + str(len(cars)) + " makes of cars in this list.")  #I just totally did this, right outta my own head.  :)
+places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
+
+print(places)
+
+
+
+
+##cars = ["toyota", "chevrolet", "subaru", "honda", "bmw", "audi", "ford"]
+##print(cars)
+##cars.reverse()
+##print(cars)
+##cars.reverse()
+##print(cars) #NOW BACK IN THE ORIGINAL SORTED ORDER
+##print(len(cars))
+##print("There are " + str(len(cars)) + " makes of cars in this list.")  #I just totally did this, right outta my own head.  :)
+##
+##example = "LKJASLKJASDLKJSADLKJ"
+##
+##print(len(example))
 
 ##print("Here is the original list: ")
 ##cars1 = ["toyota", "subaru", "bmw", "audi"]
