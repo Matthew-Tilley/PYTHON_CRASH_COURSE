@@ -10,7 +10,7 @@ places.reverse()
 print(places)
 
 places.sort()
-
+print(places)
 
 
 
