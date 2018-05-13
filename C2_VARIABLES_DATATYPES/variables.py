@@ -1,9 +1,17 @@
-#2-8 NUMBER EIGHT
+#2-9 FAVORITE NUMBER
+fav = 42
+message = "Your favorite number is: "
 
-print(2+6)
-print(4008 - 4000)
-print(2*4)
-print(32/4)
+whole_schebang = message + str(fav)
+
+print(whole_schebang)
+
+###2-8 NUMBER EIGHT
+##
+##print(2+6)
+##print(4008 - 4000)
+##print(2*4)
+##print(32/4)
 
 
 
