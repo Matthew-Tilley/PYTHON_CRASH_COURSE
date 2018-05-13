@@ -1,4 +1,6 @@
+message = "One of Python's strengths is its diverse community."
 
+print(message)
 
 ##favorite_language = "         Python         "
 ##
