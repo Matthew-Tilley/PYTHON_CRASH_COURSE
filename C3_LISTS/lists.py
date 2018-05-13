@@ -10,8 +10,12 @@ not_coming = "hawking"
 
 guests.remove(not_coming)
 
-message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
-print(message)
+##message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
+##print(message)
+
+guests.append("kaku")
+
+print(guests)
 
 
 
