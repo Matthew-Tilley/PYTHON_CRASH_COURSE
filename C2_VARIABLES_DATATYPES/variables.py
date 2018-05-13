@@ -1,6 +1,8 @@
-message = "Hello!"
 
-print(message)  #ERROR IS INTENTIONAL, PER EXAMPLE
+
+##message = "Hello!"
+##
+##print(message)  #ERROR IS INTENTIONAL, PER EXAMPLE
 
 ##message = "Hello Python world!"
 ##print(message)
