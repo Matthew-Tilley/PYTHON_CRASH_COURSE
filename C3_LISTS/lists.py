@@ -6,6 +6,10 @@ print(cars)
 cars.sort()
 print(cars)
 
+numbers = [333, 22, 99, 11, 66, 43]
+numbers.sort()
+print(numbers)
+
 
 
 
