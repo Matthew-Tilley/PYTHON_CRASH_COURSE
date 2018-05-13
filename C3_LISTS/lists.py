@@ -1,45 +1,58 @@
-guests = ["einstein", "sagan", "hawking", "tyson" ]
+###LIST SORTING
 
-#3-5 CHANGING GUEST LIST
-##guests.remove("hawking")
-##print(guests)
+cars = ["toyota", "subaru", "bmw", "audi"]
 
-not_coming = "hawking"
+print(cars)
+cars.sort()
+print(cars)
+
+
+
+
+
+
+##guests = ["einstein", "sagan", "hawking", "tyson" ]
+##
+###3-5 CHANGING GUEST LIST
+####guests.remove("hawking")
+####print(guests)
+##
+##not_coming = "hawking"
+####guests.remove(not_coming)
+####print(guests)
+##
 ##guests.remove(not_coming)
+##
+####message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
+####print(message)
+##
+##guests.append("kaku")
+##
+##guests.append("manzier")
+##guests.append("hawking")
+##guests.append("smith")
+##
+##guests.insert(0, "nelson")
+##guests.insert(3, "lewis")
+##guests.append("winchell")
+##
+##
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+##
 ##print(guests)
-
-guests.remove(not_coming)
-
-##message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
-##print(message)
-
-guests.append("kaku")
-
-guests.append("manzier")
-guests.append("hawking")
-guests.append("smith")
-
-guests.insert(0, "nelson")
-guests.insert(3, "lewis")
-guests.append("winchell")
-
-
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
-
-print(guests)
-
-del(guests[1])
-print(guests)
-del(guests[0])
-
-print(guests)
+##
+##del(guests[1])
+##print(guests)
+##del(guests[0])
+##
+##print(guests)
 
 
 
