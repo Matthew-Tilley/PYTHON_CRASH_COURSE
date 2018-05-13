@@ -1,3 +1,9 @@
+age = 23
+message = "Happy " + age + "rd Birthday!!!"
+
+print(message)
+
+
 ###2-7 STRIPPING WHITESPACE
 ##name = "            Albert                       "
 ##
