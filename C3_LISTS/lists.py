@@ -24,20 +24,29 @@ guests.insert(3, "lewis")
 guests.append("winchell")
 
 
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
+
+print(guests)
 
 
 
-
-print("Hey " + guests[0].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[1].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[2].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[3].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[4].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[5].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[6].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[7].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[8].title() + "  " + "we found a bigger table; party on!!!")
-print("Hey " + guests[9].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[0].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[1].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[2].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[3].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[4].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[5].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[6].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[7].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[8].title() + "  " + "we found a bigger table; party on!!!")
+##print("Hey " + guests[9].title() + "  " + "we found a bigger table; party on!!!")
 
       
 
