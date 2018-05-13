@@ -1,7 +1,11 @@
 guests = ["einstein", "sagan", "hawking", "tyson" ]
 
 #3-5 CHANGING GUEST LIST
-guests.remove("hawking")
+##guests.remove("hawking")
+##print(guests)
+
+not_coming = "hawking"
+guests.remove(not_coming)
 print(guests)
 
 
