@@ -35,6 +35,14 @@ print("I'm sorry " + guests.pop() + " but you are cordially uninvited.")
 
 print(guests)
 
+del(guests[1])
+print(guests)
+del(guests[0])
+
+print(guests)
+
+
+
 
 
 ##print("Hey " + guests[0].title() + "  " + "we found a bigger table; party on!!!")
