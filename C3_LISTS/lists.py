@@ -9,6 +9,11 @@ print(places)
 places.reverse()
 print(places)
 
+places.sort()
+
+
+
+
 
 
 
