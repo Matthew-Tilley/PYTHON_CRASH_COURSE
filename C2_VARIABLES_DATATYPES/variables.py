@@ -1,8 +1,12 @@
-favorite_language = "Python "
+favorite_language = "         Python         "
 
-adjusted_favorite_language = favorite_language.rstrip()
+print(favorite_language)
 
-print(adjusted_favorite_language + "*")
+adjusted_favorite_language = favorite_language.lstrip()
+
+##print(adjusted_favorite_language)
+
+##print(adjusted_favorite_language + "*")
 
 ##print("Languages:\nPython\nC\nJavaScript")
 
