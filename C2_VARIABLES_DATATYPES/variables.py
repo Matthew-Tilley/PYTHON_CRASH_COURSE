@@ -1,6 +1,13 @@
-name = "ADA LOVELACE"
+first_name = "ada"
+last_name = "lovelace"
 
-print(name.lower())
+full_name = first_name + " " + last_name
+
+print(full_name)
+
+##name = "ADA LOVELACE"
+##
+##print(name.lower())
 
 
 ##name = "ada lovelace"
