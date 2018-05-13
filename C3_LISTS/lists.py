@@ -10,8 +10,17 @@ not_coming = "hawking"
 
 guests.remove(not_coming)
 
-message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
-print(message)
+##message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
+##print(message)
+
+guests.append("kaku")
+
+print(guests)
+
+print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
+print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
 
 
 
