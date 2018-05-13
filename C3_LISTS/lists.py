@@ -1,32 +1,40 @@
 ###LIST SORTING
 
-print("Here is the original list: ")
-cars1 = ["toyota", "subaru", "bmw", "audi"]
-print(cars1)
-
-print("\n")
-
-print("Here is the temporarily-sorted list of cars: ")
-print(sorted(cars1))
-
-print("Here is the original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
-print(cars1)
-
-print("\n")
-
-##cars.sort(reverse=True)
+cars = ["toyota", "chevrolet", "subaru", "honda", "bmw", "audi", "ford"]
+print(cars)
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars) #NOW BACK IN THE ORIGINAL SORTED ORDER
 
 
-print("Here is the original list of numbers: ")
-numbers1 = [333, 22, 99, 11, 66, 43]
-##numbers.sort(reverse=True)
-print(numbers1)
-
-print("Here is the temporarily-sorted list of numbers: ")
-print(sorted(numbers1))
-
-print("Here is your original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
-print(numbers1)
+##print("Here is the original list: ")
+##cars1 = ["toyota", "subaru", "bmw", "audi"]
+##print(cars1)
+##
+##print("\n")
+##
+##print("Here is the temporarily-sorted list of cars: ")
+##print(sorted(cars1))
+##
+##print("Here is the original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
+##print(cars1)
+##
+##print("\n")
+##
+####cars.sort(reverse=True)
+##
+##
+##print("Here is the original list of numbers: ")
+##numbers1 = [333, 22, 99, 11, 66, 43]
+####numbers.sort(reverse=True)
+##print(numbers1)
+##
+##print("Here is the temporarily-sorted list of numbers: ")
+##print(sorted(numbers1))
+##
+##print("Here is your original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
+##print(numbers1)
 
 
 
