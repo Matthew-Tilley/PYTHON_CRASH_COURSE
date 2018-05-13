@@ -2,7 +2,11 @@
 names = ["mike", "jeff", "john", "chris", "brandy", "shan"]
 
 
-###3.1 NAMES
+#3-2 GREETINGS
+greeting = "Hello " + names[0].title() + ", how are you today?"
+print(greeting)
+
+###3-1 NAMES
 ##print(names[0].title())
 ##print(names[-1].title())
 
