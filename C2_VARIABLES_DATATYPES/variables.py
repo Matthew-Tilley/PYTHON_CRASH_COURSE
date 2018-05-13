@@ -1,8 +1,16 @@
-#2-6 FAMOUS QUOTE PART DEUX
-quote = ' once said, "A person who never made a mistake never tried anything new."'
-author = "Albert Einstein"
+#2-7 STRIPPING WHITESPACE
+name = "            Albert                       "
 
-whole_thing = print(author + " " + quote)
+print(name)
+print(name.rstrip())
+print(name.lstrip())
+print(name.strip())
+
+###2-6 FAMOUS QUOTE PART DEUX
+##quote = ' once said, "A person who never made a mistake never tried anything new."'
+##author = "Albert Einstein"
+##
+##whole_thing = print(author + " " + quote)
 
 
 ####2-5 FAMOUS QUOTE
