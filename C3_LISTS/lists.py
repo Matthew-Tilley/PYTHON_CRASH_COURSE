@@ -5,8 +5,14 @@ guests = ["einstein", "sagan", "hawking", "tyson" ]
 ##print(guests)
 
 not_coming = "hawking"
+##guests.remove(not_coming)
+##print(guests)
+
 guests.remove(not_coming)
-print(guests)
+
+message = "Unfortunately, " + not_coming.title() + " cannot make it, because he is newly dead."
+print(message)
+
 
 
 #3-4 GUEST LIST
