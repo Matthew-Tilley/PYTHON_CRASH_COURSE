@@ -7,6 +7,7 @@ print(places)
 
 alphabetical = sorted(places)
 print(alphabetical)
+print(places)
 
 
 
