@@ -4,11 +4,24 @@ motorcycles.append("Harley-Davidson")
 motorcycles.append("Honda")
 motorcycles.append("Suzuki")
 
-motorcycles[0] = "harley-davidson"
-motorcycles[1] = "honda"
-motorcycles[2] = "suzuki"
+##motorcycles[0] = "harley-davidson"
+##motorcycles[1] = "honda"
+##motorcycles[2] = "suzuki"
+##
+##print(motorcycles)
 
+motorcycles.insert(0,"indian")
+
+##print(motorcycles)
+##print(motorcycles[0].title())
+
+motorcycles.insert(2, "moped")
 print(motorcycles)
+
+del motorcycles[2]
+print(motorcycles)
+
+##print(motorcycles)
 
 ##motorcycles = ["honda", "yamaha", "suzuki"]
 ##motorcycles.append("Ducati")
