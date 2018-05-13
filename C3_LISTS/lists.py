@@ -16,10 +16,24 @@ motorcycles.insert(0,"indian")
 ##print(motorcycles[0].title())
 
 motorcycles.insert(2, "moped")
-print(motorcycles)
 
-del motorcycles[2]
 print(motorcycles)
+first_owned = motorcycles.pop(1)
+print(first_owned)
+message = "The first motorcycle I owned was a " + first_owned.title() + "."
+print(message)
+
+##print(motorcycles)
+##
+##popped_motorcycles = motorcycles.pop()
+##print(motorcycles)
+##print(popped_motorcycles)
+
+
+##print(motorcycles)
+##
+##del motorcycles[2]
+##print(motorcycles)
 
 ##print(motorcycles)
 
