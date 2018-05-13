@@ -1,3 +1,13 @@
+#2-2 SIMPLE MESSAGES
+
+something = "This is another message."
+
+print(something)
+
+something = "Changes made to the original message."
+
+print(something)
+
 
 
 
