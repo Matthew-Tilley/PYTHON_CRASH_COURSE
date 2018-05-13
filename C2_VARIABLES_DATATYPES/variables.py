@@ -1,5 +1,7 @@
-name = "ada lovelace"
-print(name.upper())
+name = "ADA LOVELACE"
+
+print(name.lower())
+
 
 ##name = "ada lovelace"
 ##print(name.title())
