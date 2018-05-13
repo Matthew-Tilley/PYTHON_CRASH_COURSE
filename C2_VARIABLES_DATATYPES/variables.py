@@ -1,10 +1,10 @@
-#2-7 STRIPPING WHITESPACE
-name = "            Albert                       "
-
-print(name)
-print(name.rstrip())
-print(name.lstrip())
-print(name.strip())
+###2-7 STRIPPING WHITESPACE
+##name = "            Albert                       "
+##
+##print(name)
+##print(name.rstrip())
+##print(name.lstrip())
+##print(name.strip())
 
 ###2-6 FAMOUS QUOTE PART DEUX
 ##quote = ' once said, "A person who never made a mistake never tried anything new."'
