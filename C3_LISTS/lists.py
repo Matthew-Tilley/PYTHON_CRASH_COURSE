@@ -1,10 +1,15 @@
-#3-4 GUEST LIST
 guests = ["einstein", "sagan", "hawking", "tyson" ]
 
-print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
+#3-5 CHANGING GUEST LIST
+guests.remove("hawking")
+print(guests)
+
+
+#3-4 GUEST LIST
+##print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
 
 
 ##motorcycles = []
