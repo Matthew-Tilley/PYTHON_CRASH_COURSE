@@ -10,7 +10,12 @@ my_list.append("turkey")
 
 print(my_list)
 print(len(random))
-print(random[6])
+##print(random[6])
+
+blanko = []
+
+print(blanko)
+print(blanko[-1])
 
 
 ##nope = my_list.pop(2)
