@@ -1,7 +1,10 @@
-print("Python")
-print("\tPython")
-print("\t\tPython")
-print("\t\t\tPython")
+print("Languages:\nPython\nC\nJavaScript")
+
+
+##print("Python")
+##print("\tPython")
+##print("\t\tPython")
+##print("\t\t\tPython")
 
 
 ##first_name = "ada"
