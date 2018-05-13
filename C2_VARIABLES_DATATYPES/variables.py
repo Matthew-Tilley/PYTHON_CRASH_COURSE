@@ -1,9 +1,20 @@
-#2-3 PERSONAL MESSAGE
-first_name = "Joe"
+#2-4 NAME CASES
+first_name = "grover"
 
-message = "Hello, " + first_name + " ...would you like to learn some Python today?"
+print(first_name.title())
+print(first_name.upper())
 
-print(message)
+first_name = first_name.upper()
+
+print(first_name.lower())
+
+
+###2-3 PERSONAL MESSAGE
+##first_name = "Joe"
+##
+##message = "Hello, " + first_name + " ...would you like to learn some Python today?"
+##
+##print(message)
 
 ##message = 'One of Python's strengths is its diverse community.'
 ##
