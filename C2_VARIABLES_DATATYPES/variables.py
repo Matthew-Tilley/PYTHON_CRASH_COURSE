@@ -1,3 +1,6 @@
+#2-11 ZEN OF PYTHON
+#Completed - read it, wrote it down for future reference...very cool. 
+
 #2-10 ADDING COMMENTS
 #This is a comment.  It is meaningful and purposeful.  Alligator.
 
