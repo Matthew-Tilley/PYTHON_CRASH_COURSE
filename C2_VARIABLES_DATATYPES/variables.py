@@ -1,10 +1,10 @@
-#2-9 FAVORITE NUMBER
-fav = 42
-message = "Your favorite number is: "
-
-whole_schebang = message + str(fav)
-
-print(whole_schebang)
+###2-9 FAVORITE NUMBER
+##fav = 42
+##message = "Your favorite number is: "
+##
+##whole_schebang = message + str(fav)
+##
+##print(whole_schebang)
 
 ###2-8 NUMBER EIGHT
 ##
