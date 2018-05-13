@@ -1,7 +1,7 @@
 #2-3 PERSONAL MESSAGE
 first_name = "Joe"
 
-message = "Hello, " + " " + first_name + " ...would you like to learn some Python today?"
+message = "Hello, " + first_name + " ...would you like to learn some Python today?"
 
 print(message)
 
