@@ -1,9 +1,14 @@
 motorcycles = ["honda", "yamaha", "suzuki"]
+motorcycles.append("Ducati")
 print(motorcycles)
-motorcycles[1] = "harley-davidson"
-print(motorcycles)
-message = "I ride " + motorcycles[1].title() + " motorcycles.  I would rather eat worms, than ride a " + motorcycles[0].title() + "."
-print(message)
+
+
+##print(motorcycles)
+##motorcycles[1] = "harley-davidson"
+##print(motorcycles)
+##message = "I ride " + motorcycles[1].title() + " motorcycles.  I would rather eat worms, than ride a " + motorcycles[0].title() + "."
+##print(message)
+
 ###3-3 YOUR OWN LIST
 ##vehicles = ["Harley", "Ford", "Honda", "Chevy"]
 ##models = ["Softail", "Transit Connect", "Civic Hybrid", "Volt"]
