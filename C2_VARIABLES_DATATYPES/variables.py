@@ -1,3 +1,6 @@
+#2-10 ADDING COMMENTS
+#This is a comment.  It is meaningful and purposeful.  Alligator.
+
 ###2-9 FAVORITE NUMBER
 ##fav = 42
 ##message = "Your favorite number is: "
