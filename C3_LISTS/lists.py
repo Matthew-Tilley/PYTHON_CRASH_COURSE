@@ -9,6 +9,9 @@ alphabetical = sorted(places)
 print(alphabetical)
 print(places)
 
+r_alphabetical = sorted(places, reverse=True)
+print(r_alphabetical)
+
 
 
 
