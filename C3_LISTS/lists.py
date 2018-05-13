@@ -1,14 +1,34 @@
 ###LIST SORTING
 
-cars = ["toyota", "subaru", "bmw", "audi"]
+print("Here is the original list: ")
+cars1 = ["toyota", "subaru", "bmw", "audi"]
+print(cars1)
 
-print(cars)
-cars.sort(reverse=True)
-print(cars)
+print("\n")
 
-numbers = [333, 22, 99, 11, 66, 43]
-numbers.sort(reverse=True)
-print(numbers)
+print("Here is the temporarily-sorted list of cars: ")
+print(sorted(cars1))
+
+print("Here is the original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
+print(cars1)
+
+print("\n")
+
+##cars.sort(reverse=True)
+
+
+print("Here is the original list of numbers: ")
+numbers1 = [333, 22, 99, 11, 66, 43]
+##numbers.sort(reverse=True)
+print(numbers1)
+
+print("Here is the temporarily-sorted list of numbers: ")
+print(sorted(numbers1))
+
+print("Here is your original list again.  Sorted() does *NOT* permenantly change the sort order of your original list!!!")
+print(numbers1)
+
+
 
 
 
