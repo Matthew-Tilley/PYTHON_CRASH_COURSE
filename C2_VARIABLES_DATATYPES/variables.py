@@ -1,12 +1,18 @@
-#2-4 NAME CASES
-first_name = "grover"
+##2-5 FAMOUS QUOTE
+quote = 'Albert Einstein once said, "A person who never made a mistake never tried anything new.'
 
-print(first_name.title())
-print(first_name.upper())
+print(quote)
 
-first_name = first_name.upper()
 
-print(first_name.lower())
+###2-4 NAME CASES
+##first_name = "grover"
+##
+##print(first_name.title())
+##print(first_name.upper())
+##
+##first_name = first_name.upper()
+##
+##print(first_name.lower())
 
 
 ###2-3 PERSONAL MESSAGE
