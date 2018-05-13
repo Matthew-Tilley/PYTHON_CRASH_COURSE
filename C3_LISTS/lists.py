@@ -1,10 +1,16 @@
+#3-3 YOUR OWN LIST
+vehicles = ["Harley", "Ford", "Honda", "Chevy"]
+models = ["Softail", "Transit Connect", "Civic Hybrid", "Volt"]
 
-names = ["mike", "jeff", "john", "chris", "brandy", "shan"]
+message = "I would like to own a " + vehicles[1] + " " + models[1] + " someday."
+print(message)
 
 
-#3-2 GREETINGS
-greeting = "Hello " + names[0].title() + ", how are you today?"
-print(greeting)
+##names = ["mike", "jeff", "john", "chris", "brandy", "shan"]
+
+###3-2 GREETINGS
+##greeting = "Hello " + names[0].title() + ", how are you today?"
+##print(greeting)
 
 ###3-1 NAMES
 ##print(names[0].title())
