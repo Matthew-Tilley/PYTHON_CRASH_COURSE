@@ -1,24 +1,27 @@
 ###LIST SORTING
 
 places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
-places.append("Wales")
 
-places.reverse()
-print(places)
+print(len(places))
 
-places.reverse()
-print(places)
-
-places.sort()
-print(places)
-
-places.sort(reverse=True)
-print(places)
+jibberish = "LKASJDLKJASLKJAKSLDJLKSADJ"
+print(len(jibberish))
 
 
 
-
-
+##places.append("Wales")
+##
+##places.reverse()
+##print(places)
+##
+##places.reverse()
+##print(places)
+##
+##places.sort()
+##print(places)
+##
+##places.sort(reverse=True)
+##print(places)
 
 
 
