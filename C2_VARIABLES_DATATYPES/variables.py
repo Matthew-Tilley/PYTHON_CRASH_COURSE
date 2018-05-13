@@ -1,4 +1,6 @@
+message = "Hello!"
 
+print(mesage)  #ERROR IS INTENTIONAL, PER EXAMPLE
 
 ##message = "Hello Python world!"
 ##print(message)
