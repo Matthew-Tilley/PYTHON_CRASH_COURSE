@@ -3,11 +3,11 @@
 cars = ["toyota", "subaru", "bmw", "audi"]
 
 print(cars)
-cars.sort()
+cars.sort(reverse=True)
 print(cars)
 
 numbers = [333, 22, 99, 11, 66, 43]
-numbers.sort()
+numbers.sort(reverse=True)
 print(numbers)
 
 
