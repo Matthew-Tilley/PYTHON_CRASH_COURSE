@@ -2,7 +2,9 @@ favorite_language = "         Python         "
 
 print(favorite_language)
 
-adjusted_favorite_language = favorite_language.lstrip()
+adjusted_favorite_language = favorite_language.strip()
+
+print(adjusted_favorite_language)
 
 ##print(adjusted_favorite_language)
 
