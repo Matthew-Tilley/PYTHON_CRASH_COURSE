@@ -1,10 +1,17 @@
-age = 23
+#2-8 NUMBER EIGHT
 
-message = "Happy " + str(age) + "rd Birthday!!!"
+print(2+6)
+print(4008 - 4000)
+print(2*4)
+print(32/4)
 
-print(message)
 
 
+##age = 23
+##
+##message = "Happy " + str(age) + "rd Birthday!!!"
+##
+##print(message)
 
 
 ###2-7 STRIPPING WHITESPACE
