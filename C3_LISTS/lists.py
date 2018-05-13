@@ -15,12 +15,28 @@ guests.remove(not_coming)
 
 guests.append("kaku")
 
+guests.append("manzier")
+guests.append("hawking")
+guests.append("smith")
 print(guests)
 
-print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
-print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
+print("Hey " + guests[0] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[1] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[2] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[3] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[4] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[5] + "  " + "we found a bigger table; party on!!!")
+print("Hey " + guests[6] + "  " + "we found a bigger table; party on!!!")
+      
+
+
+
+##print(guests)
+##
+##print("Dear Mr. and / or Mrs. " + guests[0].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[1].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[2].title() + ", you are cordially invited to dinner at my estate.")
+##print("Dear Mr. and / or Mrs. " + guests[3].title() + ", you are cordially invited to dinner at my estate.")
 
 
 
