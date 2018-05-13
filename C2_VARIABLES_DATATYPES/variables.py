@@ -1,4 +1,8 @@
+#2-1 SIMPLE MESSAGE
 
+something = "This is a simple message; thanks for reading."
+
+print(something)
 
 ##message = "Hello!"
 ##
