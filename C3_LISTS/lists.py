@@ -3,15 +3,19 @@
 places = ["New Zealand", "Australia", "Germany", "Great Brittan", "California", "Colorado"]
 places.append("Wales")
 
+places.reverse()
+print(places)
 print(places)
 
-alphabetical = sorted(places)
-print(alphabetical)
-print(places)
 
-r_alphabetical = sorted(places, reverse=True)
-print(r_alphabetical)
-print(places)
+
+##alphabetical = sorted(places)
+##print(alphabetical)
+##print(places)
+##
+##r_alphabetical = sorted(places, reverse=True)
+##print(r_alphabetical)
+##print(places)
 
 
 
