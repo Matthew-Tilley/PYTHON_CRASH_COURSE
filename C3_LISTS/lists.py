@@ -17,13 +17,25 @@ motorcycles.insert(0,"indian")
 
 motorcycles.insert(2, "moped")
 
-print(motorcycles)
+##print(motorcycles)
 
 motorcycles.append("ducati")
+
 print(motorcycles)
 
-motorcycles.remove('ducati')
+too_expensive = "ducati"
+motorcycles.remove(too_expensive)
 print(motorcycles)
+
+message = "Those " + too_expensive + " bikes are a bit pricey for my tastes."
+print(message)
+
+
+
+##print(motorcycles)
+##
+##motorcycles.remove('ducati')
+##print(motorcycles)
 
 ##print(motorcycles)
 ##first_owned = motorcycles.pop(1)
