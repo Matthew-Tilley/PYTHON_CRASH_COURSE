@@ -1,7 +1,14 @@
-##2-5 FAMOUS QUOTE
-quote = 'Albert Einstein once said, "A person who never made a mistake never tried anything new.'
+#2-6 FAMOUS QUOTE PART DEUX
+quote = ' once said, "A person who never made a mistake never tried anything new."'
+author = "Albert Einstein"
 
-print(quote)
+whole_thing = print(author + " " + quote)
+
+
+####2-5 FAMOUS QUOTE
+##quote = 'Albert Einstein once said, "A person who never made a mistake never tried anything new.'
+##
+##print(quote)
 
 
 ###2-4 NAME CASES
