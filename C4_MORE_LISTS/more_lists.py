@@ -1,9 +1,14 @@
-#4-6 ODD NUMBERS
-my_input = list(range(1,21))
-
-for each in my_input:
-    if each % 2 != 0:
+#4-7 THREES
+for each in range(3, 31):
+    if each % 3 == 0:
         print(each)
+
+###4-6 ODD NUMBERS
+##my_input = list(range(1,21))
+##
+##for each in my_input:
+##    if each % 2 != 0:
+##        print(each)
 
 
 #4-4 ONE MILLION
