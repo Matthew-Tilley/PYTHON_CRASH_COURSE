@@ -1,12 +1,23 @@
-#4-7 THREES
-threes = []
+#4-8 CUBES
+cubes = []
 
-for each in range(3, 31):
-    if each % 3 == 0:
-        threes.append(each)
-        print(each)
+for each in range(1, 11):
+    cubes.append(each ** 3)
 
-print(threes)
+print(cubes)
+
+for each in cubes:
+    print(each)
+
+###4-7 THREES
+##threes = []
+##
+##for each in range(3, 31):
+##    if each % 3 == 0:
+##        threes.append(each)
+##        print(each)
+##
+##print(threes)
 
 ###4-6 ODD NUMBERS
 ##my_input = list(range(1,21))
