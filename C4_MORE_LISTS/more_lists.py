@@ -4,6 +4,8 @@ print(min(digits))
 
 print(max(digits))
 
+print(sum(digits))
+
 ##for digit in digits:
 ##    print(digit ** 6)
     
