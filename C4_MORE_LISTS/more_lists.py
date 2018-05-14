@@ -1,5 +1,22 @@
-for each in range(1,6):
-    print(each)
+numbers = list(range(10, 100))
+##print(numbers)
+
+for number in numbers:
+    if number % 10 == 0:
+        print( str(number) + " Is an even number, divisible by ten!")
+    
+    else:
+        print("Nope.")
+        
+        
+    
+
+
+##numbers = list(range(1,6))
+##print(numbers)
+
+##for each in range(1,6):
+##    print(each)
 
 
 ###4-2 ANIMALS
