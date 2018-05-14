@@ -1,14 +1,18 @@
-#4-2 ANIMALS
-animals = ["dog", "cat", "python", "fish"]
+for each in range(10, 1000):
+    print(each)
 
-proper = sorted(animals)
-print(proper)
 
-for animal in animals:
-    #print(animal)
-    print("A " + animal + " would make a great pet.")
-
-print("What do these animals have in common?  They're animals.")
+###4-2 ANIMALS
+##animals = ["dog", "cat", "python", "fish"]
+##
+##proper = sorted(animals)
+##print(proper)
+##
+##for animal in animals:
+##    #print(animal)
+##    print("A " + animal + " would make a great pet.")
+##
+##print("What do these animals have in common?  They're animals.")
 
 ###4-1 PIZZAS
 ##
