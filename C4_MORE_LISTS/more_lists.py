@@ -1,13 +1,38 @@
-my_foods = ["pizza", "falafel", "carrot cake"]
+#4-10 SLICES
 
-friend_foods = my_foods
+some_list = ["bing", "bong", "ving", "vong", "sing", "song"]
 
-my_foods.append("cannoli")
-friend_foods.append("ice cream")
+print(len(some_list))
 
-print(my_foods)
+print(some_list[ 0:3 ])
+print(some_list[ -3 : -1])
+print(some_list[ -1 : ])
+print(some_list[ : -1 ])
+print(some_list[:])
 
-print(friend_foods)
+print("The first three items in this list, are: ")
+print(some_list[ : 3 ])
+
+print("\n")
+
+print("Three items from the middle of this list, are: ")
+print(some_list[ 2:5 ])
+
+print("The last three items of this list, are: ")
+print(some_list[-3:])
+
+
+
+##my_foods = ["pizza", "falafel", "carrot cake"]
+##
+##friend_foods = my_foods
+##
+##my_foods.append("cannoli")
+##friend_foods.append("ice cream")
+##
+##print(my_foods)
+##
+##print(friend_foods)
 
 ##friend_foods = my_foods[ : ]
 ##friend_foods.append("ice cream")
