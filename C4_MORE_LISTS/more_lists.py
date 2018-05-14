@@ -1,25 +1,37 @@
-#4-10 SLICES
+#4-11 OUR PIZZAS
 
-some_list = ["bing", "bong", "ving", "vong", "sing", "song"]
+pizzas = [ "pepperoni", "sausage", "cheese", "deluxe", "veggie" ]
 
-print(len(some_list))
+buddy_pizzas = pizzas[ : ]
 
-print(some_list[ 0:3 ])
-print(some_list[ -3 : -1])
-print(some_list[ -1 : ])
-print(some_list[ : -1 ])
-print(some_list[:])
+pizzas.append("mushroom")
+buddy_pizzas.append("garlic")
 
-print("The first three items in this list, are: ")
-print(some_list[ : 3 ])
+print(pizzas)
+print(buddy_pizzas)
 
-print("\n")
-
-print("Three items from the middle of this list, are: ")
-print(some_list[ 2:5 ])
-
-print("The last three items of this list, are: ")
-print(some_list[-3:])
+###4-10 SLICES
+##
+##some_list = ["bing", "bong", "ving", "vong", "sing", "song"]
+##
+##print(len(some_list))
+##
+##print(some_list[ 0:3 ])
+##print(some_list[ -3 : -1])
+##print(some_list[ -1 : ])
+##print(some_list[ : -1 ])
+##print(some_list[:])
+##
+##print("The first three items in this list, are: ")
+##print(some_list[ : 3 ])
+##
+##print("\n")
+##
+##print("Three items from the middle of this list, are: ")
+##print(some_list[ 2:5 ])
+##
+##print("The last three items of this list, are: ")
+##print(some_list[-3:])
 
 
 
