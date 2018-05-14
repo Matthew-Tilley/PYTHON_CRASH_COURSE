@@ -1,13 +1,17 @@
-#4-8 CUBES
-cubes = []
-
-for each in range(1, 11):
-    cubes.append(each ** 3)
-
+#4-9 LIST COMPREHENSION
+cubes = [value ** 3 for value in range(1, 11)]
 print(cubes)
 
-for each in cubes:
-    print(each)
+###4-8 CUBES
+##cubes = []
+##
+##for each in range(1, 11):
+##    cubes.append(each ** 3)
+##
+##print(cubes)
+##
+##for each in cubes:
+##    print(each)
 
 ###4-7 THREES
 ##threes = []
