@@ -1,10 +1,18 @@
-magicians = ["alice", "david", "carolina"]
+#4-1 PIZZAS
 
-for magician in magicians:
-    print(magician.title() + ", that was a great trick!")
-    print("I can't wait to see your next trick, " + magician.title() + ".\n")
+pizzas = ["cheese", "sausage", "mushroom"]
 
-    print("Thank you, everyone...that was a great magic show!")
+for pizza in pizzas:
+    print(pizza)
+
+
+##magicians = ["alice", "david", "carolina"]
+##
+##for magician in magicians:
+##    print(magician.title() + ", that was a great trick!")
+##    print("I can't wait to see your next trick, " + magician.title() + ".\n")
+##
+##    print("Thank you, everyone...that was a great magic show!")
   
   
   
