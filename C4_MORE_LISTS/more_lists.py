@@ -1,9 +1,11 @@
 #4-1 PIZZAS
 
 pizzas = ["cheese", "sausage", "mushroom"]
+pizzas.append("pepperoni")
 
 for pizza in pizzas:
-    print(pizza)
+    #print(pizza)
+    print("I like " + pizza + " pizza!")
 
 
 ##magicians = ["alice", "david", "carolina"]
