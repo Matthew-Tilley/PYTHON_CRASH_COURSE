@@ -1,7 +1,13 @@
 #4-4 ONE MILLION
 
-m = list(range(1, 1000000))
-print(m) (This made my computer choke...)
+
+numz = list(range(1, 1001))
+
+print(numz)
+
+
+##m = list(range(1, 1000000))
+##print(m) (This made my computer choke...)
 
 
 ###4-3 COUNTING TO TWENTY
