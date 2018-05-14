@@ -1,8 +1,25 @@
-players = ["charles", "martina", "michael", "eli"]
- 
- 
-for player in players[ :2 ]:
-    print(player)
+my_foods = ["pizza", "falafel", "carrot cake"]
+my_foods.append("cannoli")
+
+
+friend_foods = my_foods[ : ]
+friend_foods.append("ice cream")
+
+print("My favorite foods are: ")
+print(my_foods)
+
+print("\n")
+
+print("My friend's favorite foods are:")
+print(friend_foods)
+
+
+
+##players = ["charles", "martina", "michael", "eli"]
+## 
+## 
+##for player in players[ :2 ]:
+##    print(player)
  
 ##print(players[1:2])
 #print(players[ :2 ])
