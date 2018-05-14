@@ -1,6 +1,7 @@
 players = ["charles", "martina", "michael", "eli"]
-
-print(players[1:2])
+    
+##print(players[1:2])
+print(players[ :2 ])
 
 ###4-9 LIST COMPREHENSION
 ##cubes = [value ** 3 for value in range(1, 11)]
