@@ -1,6 +1,11 @@
-squares = [value**2 for value in range(1,11)]
+#4-3 COUNTING TO TWENTY
+for number in range(1, 21):
+    print(number)
+    
 
-print(squares)
+##squares = [value**2 for value in range(1,11)]
+##
+##print(squares)
 
 ##digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ##
