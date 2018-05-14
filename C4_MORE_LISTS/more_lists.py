@@ -7,6 +7,8 @@ for pizza in pizzas:
     #print(pizza)
     print("I like " + pizza + " pizza!")
 
+print("As you can see, I really like pizza!")
+
 
 ##magicians = ["alice", "david", "carolina"]
 ##
