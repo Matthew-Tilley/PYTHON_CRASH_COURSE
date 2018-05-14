@@ -1,4 +1,4 @@
-for each in range(10, 1000):
+for each in range(1,6):
     print(each)
 
 
