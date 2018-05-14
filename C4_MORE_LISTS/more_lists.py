@@ -1,6 +1,13 @@
-cubes = []
-for i in range(10, 20, 3):
-    print(i)
+squares = []
+
+for value in range(1,11):
+    squares.append(value ** 2)
+
+print(squares)
+
+##cubes = []
+##for i in range(10, 20, 3):
+##    print(i)
 
 
 ##squares = []
