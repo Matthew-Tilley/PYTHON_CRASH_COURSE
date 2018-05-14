@@ -1,12 +1,24 @@
 #4-4 ONE MILLION
 
-
 numz = list(range(1, 1001))
+##
+##print(numz)
+##
+##for number in numz:
+##    print(number)
+    
+total = 0
 
-print(numz)
+total = sum(numz)
+print(total)
 
-for number in numz:
-    print(number)
+print(min(numz))
+
+print(max(numz))
+
+
+
+
 
 ##m = list(range(1, 1000000))
 ##print(m) (This made my computer choke...)
