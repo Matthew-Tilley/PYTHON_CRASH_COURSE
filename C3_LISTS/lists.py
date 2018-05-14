@@ -4,18 +4,20 @@ random = ["duck", "gator", "penguin", "python", "turkey", "salamander"]
 
 my_list = ["duck", "goat", "dog", "canoe"]
 
-my_list.append("turkey")
 
-##my_list.reverse()
 
-print(my_list)
-print(len(random))
-##print(random[6])
-
-blanko = []
-
-print(blanko)
-print(blanko[-1])
+##my_list.append("turkey")
+##
+####my_list.reverse()
+##
+##print(my_list)
+##print(len(random))
+####print(random[6])
+##
+##blanko = []
+##
+##print(blanko)
+##print(blanko[-1])
 
 
 ##nope = my_list.pop(2)

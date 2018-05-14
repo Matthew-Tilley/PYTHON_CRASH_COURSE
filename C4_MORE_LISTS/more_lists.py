@@ -1,22 +1,32 @@
-dimensions = (200, 50)
-##print(dimensions[0])
-##print(dimensions[1])
+#4-13 BUFFET STYLE
 
-#dimensions[0] = 250
+foods = ( "potatoes", "corn", "meatloaf", "chicken", "eggrolls" )
 
-for each in dimensions:
-    print(each)
-    
-    
-dimensions = (300, 60)
-print(dimensions)
+for food in foods:
+    print(food)
 
-for each in dimensions:
-    print(each)
-    
-    
-dimensions = (900, 632)
-print(dimensions)
+
+
+
+##dimensions = (200, 50)
+####print(dimensions[0])
+####print(dimensions[1])
+##
+###dimensions[0] = 250
+##
+##for each in dimensions:
+##    print(each)
+##    
+##    
+##dimensions = (300, 60)
+##print(dimensions)
+##
+##for each in dimensions:
+##    print(each)
+##    
+##    
+##dimensions = (900, 632)
+##print(dimensions)
 
 
 
