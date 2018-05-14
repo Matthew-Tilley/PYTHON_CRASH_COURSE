@@ -4,6 +4,8 @@ foods = ( "potatoes", "corn", "meatloaf", "chicken", "eggrolls" )
 
 for food in foods:
     print(food)
+    
+foods[1] = "garlic"
 
 
 
