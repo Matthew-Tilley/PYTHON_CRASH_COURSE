@@ -1,13 +1,19 @@
-#4-1 PIZZAS
+#4-2 ANIMALS
+animals = ["dog", "cat", "python", "fish"]
 
-pizzas = ["cheese", "sausage", "mushroom"]
-pizzas.append("pepperoni")
+proper = sorted(animals)
+print(proper)
 
-for pizza in pizzas:
-    #print(pizza)
-    print("I like " + pizza + " pizza!")
-
-print("As you can see, I really like pizza!")
+###4-1 PIZZAS
+##
+##pizzas = ["cheese", "sausage", "mushroom"]
+##pizzas.append("pepperoni")
+##
+##for pizza in pizzas:
+##    #print(pizza)
+##    print("I like " + pizza + " pizza!")
+##
+##print("As you can see, I really like pizza!")
 
 
 ##magicians = ["alice", "david", "carolina"]
