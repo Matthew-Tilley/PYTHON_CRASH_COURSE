@@ -1,6 +1,12 @@
-#4-3 COUNTING TO TWENTY
-for number in range(1, 21):
-    print(number)
+#4-4 ONE MILLION
+
+m = list(range(1, 1000000))
+print(m) (This made my computer choke...)
+
+
+###4-3 COUNTING TO TWENTY
+##for number in range(1, 21):
+##    print(number)
     
 
 ##squares = [value**2 for value in range(1,11)]
