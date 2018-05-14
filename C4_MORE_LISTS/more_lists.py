@@ -1,15 +1,18 @@
-numbers = list(range(10, 100))
-##print(numbers)
+skippy = list(range(2, 8, 2))
 
-for number in numbers:
-    if number % 10 == 0:
-        print( str(number) + " Is an even number, divisible by ten!")
-    
-    else:
-        print("Nope.")
-        
-        
-    
+print(skippy)
+
+
+##numbers = list(range(10, 100))
+####print(numbers)
+##
+##for number in numbers:
+##    if number % 10 == 0:
+##        print( str(number) + " Is an even number, divisible by ten!")
+##    
+##    else:
+##        print("Nope.")
+  
 
 
 ##numbers = list(range(1,6))
