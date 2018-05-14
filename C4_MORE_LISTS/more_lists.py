@@ -4,6 +4,9 @@ animals = ["dog", "cat", "python", "fish"]
 proper = sorted(animals)
 print(proper)
 
+for animal in animals:
+    print(animal)
+
 ###4-1 PIZZAS
 ##
 ##pizzas = ["cheese", "sausage", "mushroom"]
