@@ -1,24 +1,29 @@
-#4-11 OUR PIZZAS
-
-pizzas = [ "pepperoni", "sausage", "cheese", "deluxe", "veggie" ]
-
-buddy_pizzas = pizzas[ : ]
-
-pizzas.append("mushroom")
-buddy_pizzas.append("garlic")
-
-print(pizzas)
-print(buddy_pizzas)
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
 
 
-for pizza in pizzas:
-    print(pizza)
-    
-print("\n")
-    
-for pizza in buddy_pizzas:
-    print(pizza)
-    
+###4-11 OUR PIZZAS & 4-12
+##
+##pizzas = [ "pepperoni", "sausage", "cheese", "deluxe", "veggie" ]
+##
+##buddy_pizzas = pizzas[ : ]
+##
+##pizzas.append("mushroom")
+##buddy_pizzas.append("garlic")
+##
+##print(pizzas)
+##print(buddy_pizzas)
+##
+##
+##for pizza in pizzas:
+##    print(pizza)
+##    
+##print("\n")
+##    
+##for pizza in buddy_pizzas:
+##    print(pizza)
+##    
     
 
 
