@@ -5,6 +5,8 @@ numz = list(range(1, 1001))
 
 print(numz)
 
+for number in numz:
+    print(number)
 
 ##m = list(range(1, 1000000))
 ##print(m) (This made my computer choke...)
