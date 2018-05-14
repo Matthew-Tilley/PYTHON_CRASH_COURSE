@@ -13,6 +13,10 @@ print(dimensions)
 
 for each in dimensions:
     print(each)
+    
+    
+dimensions = (900, 632)
+print(dimensions)
 
 
 
