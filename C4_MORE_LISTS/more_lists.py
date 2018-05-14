@@ -11,6 +11,9 @@ for each in dimensions:
 dimensions = (300, 60)
 print(dimensions)
 
+for each in dimensions:
+    print(each)
+
 
 
 ###4-11 OUR PIZZAS & 4-12
