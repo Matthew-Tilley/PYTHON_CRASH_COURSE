@@ -5,7 +5,8 @@ proper = sorted(animals)
 print(proper)
 
 for animal in animals:
-    print(animal)
+    #print(animal)
+    print("A " + animal + " would make a great pet.")
 
 ###4-1 PIZZAS
 ##
