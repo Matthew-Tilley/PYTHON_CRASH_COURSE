@@ -8,6 +8,8 @@ for animal in animals:
     #print(animal)
     print("A " + animal + " would make a great pet.")
 
+print("What do these animals have in common?  They're animals.")
+
 ###4-1 PIZZAS
 ##
 ##pizzas = ["cheese", "sausage", "mushroom"]
