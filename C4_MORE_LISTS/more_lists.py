@@ -10,6 +10,18 @@ buddy_pizzas.append("garlic")
 print(pizzas)
 print(buddy_pizzas)
 
+
+for pizza in pizzas:
+    print(pizza)
+    
+print("\n")
+    
+for pizza in buddy_pizzas:
+    print(pizza)
+    
+    
+
+
 ###4-10 SLICES
 ##
 ##some_list = ["bing", "bong", "ving", "vong", "sing", "song"]
