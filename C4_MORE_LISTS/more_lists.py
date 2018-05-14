@@ -1,8 +1,15 @@
 dimensions = (200, 50)
-print(dimensions[0])
-print(dimensions[1])
+##print(dimensions[0])
+##print(dimensions[1])
 
-dimensions[0] = 250
+#dimensions[0] = 250
+
+for each in dimensions:
+    print(each)
+    
+    
+dimensions = (300, 60)
+print(dimensions)
 
 
 
