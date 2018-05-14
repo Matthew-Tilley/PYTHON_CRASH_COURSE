@@ -2,10 +2,15 @@
 
 foods = ( "potatoes", "corn", "meatloaf", "chicken", "eggrolls" )
 
-for food in foods:
-    print(food)
+##for food in foods:
+##    print(food)
     
-foods[1] = "garlic"
+#foods[1] = "garlic"  INTENTIONAL ERROR PER LESSON
+
+foods = ( "cheesecake", "apple pie", "meatloaf", "chicken", "eggrolls" )
+
+for each in foods:
+    print(each)
 
 
 
