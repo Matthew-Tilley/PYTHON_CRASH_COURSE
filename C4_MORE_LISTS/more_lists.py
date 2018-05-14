@@ -1,20 +1,27 @@
+#4-6 ODD NUMBERS
+my_input = list(range(1,21))
+
+for each in my_input:
+    if each % 2 != 0:
+        print(each)
+
+
 #4-4 ONE MILLION
-
-numz = list(range(1, 1001))
+##numz = list(range(1, 1001))
+####
+####print(numz)
+####
+####for number in numz:
+####    print(number)
+##    
+##total = 0
 ##
-##print(numz)
+##total = sum(numz)
+##print(total)
 ##
-##for number in numz:
-##    print(number)
-    
-total = 0
-
-total = sum(numz)
-print(total)
-
-print(min(numz))
-
-print(max(numz))
+##print(min(numz))
+##
+##print(max(numz))
 
 
 
