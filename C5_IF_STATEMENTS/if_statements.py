@@ -3,6 +3,13 @@ spaceship = "green"
 
 if "green" in spaceship:
     print("You just earned five points!")
+    
+elif "yellow" in spaceship:
+    print("You just earned five points!")
+    
+else:
+    print("You just earned five points!")
+          
 
 ##requested_toppings = ["mushrooms", "extra cheese"]
 ##requested_toppings.append("pepperoni")
