@@ -1,7 +1,13 @@
-if "Audi" == 'audi':
-        print(True)
-else:
-    print(False)
+tester = "Apple"
+
+if tester.lower() == "apple":
+    print(True);
+
+
+##if "Audi" == 'audi':
+##        print(True)
+##else:
+##    print(False)
 
 
 ##a = 3
