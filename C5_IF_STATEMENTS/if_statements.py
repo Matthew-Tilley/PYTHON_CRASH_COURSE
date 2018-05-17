@@ -1,8 +1,44 @@
-#5-1 CONDITIONAL TESTS
-car = 'pontiac'
+bird = "has feathers."
 
-if car != "toyota":
-    print("It ain't a 'Yota!")
+##if "has feathers" in bird:
+##    print(True)
+    
+##turtle = "has shell"
+##if "has shell" in turtle:
+##    print("Turtles have shells.")
+    
+inventory = ["bmw", "chevrolet", "ford", "nissan"]
+
+##if "ford" in inventory:
+##    print("Gobble-gobble!")
+
+##if "toyota" not in inventory:
+##    print("No 'Yota's here!")
+
+##if "bmw" and "nissan" in inventory:
+##    print("Yep, we've got 'em in stock!")
+
+##if "pontiac" or "oldsmobile" not in inventory:
+##    print("We ain't got them-there vee-hickles in stock, partner!")
+##    
+##else:
+##    print("How many you want?")
+
+##for item in inventory:
+##    if "chevrolet" in inventory:
+##        print("YAY!")
+
+if "oldsmobile" not in inventory:
+    print("Nadazipzilch, bro.")
+    
+
+
+###5-1 CONDITIONAL TESTS
+##car = 'pontiac'
+##
+##if car != "toyota":
+##    print("It ain't a 'Yota!")
+
 
 ##banned_users = ["andrew", "carolina", "david"]
 ##
