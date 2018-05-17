@@ -1,17 +1,31 @@
-def checker(age):
-    if age < 4:
-        print("Admission is free!")
+requested_toppings = ["mushrooms", "extra cheese"]
+requested_toppings.append("pepperoni")
+
+if "mushrooms" in requested_toppings:
+    print("Adding mushrooms!")
     
-    elif age >= 4 and age <18:
-        print("Admission is five dollars.")
-        
-    elif age > 18 and age >= 65:
-        print("You get a discount...admission is five dollars.")
+if "pepperoni" in requested_toppings:
+    print("Adding pepperoni.")
     
-    else:
-        print("Admission is ten dollars.")
+print("\n Finished making your pizza!")
     
-checker(84)
+
+
+
+##def checker(age):
+##    if age < 4:
+##        print("Admission is free!")
+##    
+##    elif age >= 4 and age <18:
+##        print("Admission is five dollars.")
+##        
+##    elif age > 18 and age >= 65:
+##        print("You get a discount...admission is five dollars.")
+##    
+##    else:
+##        print("Admission is ten dollars.")
+##    
+##checker(84)
 
 ##bird = "has feathers."
 
