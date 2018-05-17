@@ -1,14 +1,14 @@
 #5-3 ALIEN SPACESHIPS
 spaceship = "green"
+spaceship = "red"
 
 if "green" in spaceship:
     print("You just earned five points!")
     
-elif "yellow" in spaceship:
-    print("You just earned five points!")
+elif "yellow" or "red" in spaceship:
+    print("You just earned TEN points!")
     
-else:
-    print("You just earned five points!")
+
           
 
 ##requested_toppings = ["mushrooms", "extra cheese"]
