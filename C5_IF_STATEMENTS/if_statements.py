@@ -1,8 +1,10 @@
-a = "3"
+a = 3
+
 
 b = 3
 
-print(a = b)
+if a == b:
+    print(True);
 
 ##cars = ['audi', 'bmw', 'subaru', 'toyota']
 ##
