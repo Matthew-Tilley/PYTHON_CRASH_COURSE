@@ -1,12 +1,21 @@
-thing_1 = "blue"
+toppings = ["mushrooms", "onions", "pineapple"]
 
-thing_2 = "orange"
-
-if thing_1 == "blue" or thing_2 == "orange":
-    print("Yep.")
+if "sausage" in toppings:
+    print(True)
     
-if (thing_1 != "purple") or (thing_2 != "red"):
-    print("Blurrpppsszzz.")
+elif "mushrooms" in toppings:
+    print(True)
+
+
+##thing_1 = "blue"
+##
+##thing_2 = "orange"
+##
+##if thing_1 == "blue" or thing_2 == "orange":
+##    print("Yep.")
+##    
+##if (thing_1 != "purple") or (thing_2 != "red"):
+##    print("Blurrpppsszzz.")
 
 
 ##flub = 63
