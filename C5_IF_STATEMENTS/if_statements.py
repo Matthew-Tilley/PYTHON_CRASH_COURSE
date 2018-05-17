@@ -4,14 +4,14 @@ def checker(age):
     
     elif age >= 4 and age <18:
         print("Admission is five dollars.")
+        
+    elif age > 18 and age >= 65:
+        print("You get a discount...admission is five dollars.")
     
     else:
         print("Admission is ten dollars.")
     
-##    else age > 18:
-##            print("Admission is ten dollars.")
-
-checker(44)
+checker(84)
 
 ##bird = "has feathers."
 
