@@ -1,10 +1,17 @@
-a = 3
+if "Audi" == 'audi':
+        print(True)
+else:
+    print(False)
 
 
-b = 3
+##a = 3
+##
+##
+##b = 3
+##
+##if a == b:
+##    print(True);
 
-if a == b:
-    print(True);
 
 ##cars = ['audi', 'bmw', 'subaru', 'toyota']
 ##
