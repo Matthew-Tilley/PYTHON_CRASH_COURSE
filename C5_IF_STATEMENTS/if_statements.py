@@ -1,9 +1,15 @@
-banned_users = ["andrew", "carolina", "david"]
+#5-1 CONDITIONAL TESTS
+car = 'pontiac'
 
-user = "marie"
+if car != "toyota":
+    print("It ain't a 'Yota!")
 
-if user not in banned_users:
-    print("Hello " + user + " your comment will be submitted.")
+##banned_users = ["andrew", "carolina", "david"]
+##
+##user = "marie"
+##
+##if user not in banned_users:
+##    print("Hello " + user + " your comment will be submitted.")
 
 
 ##toppings = ["mushrooms", "onions", "pineapple"]
