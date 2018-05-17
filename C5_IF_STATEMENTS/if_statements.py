@@ -1,14 +1,20 @@
-requested_toppings = ["mushrooms", "extra cheese"]
-requested_toppings.append("pepperoni")
+#5-3 ALIEN SPACESHIPS
+spaceship = "green"
 
-if "mushrooms" in requested_toppings:
-    print("Adding mushrooms!")
-    
-if "pepperoni" in requested_toppings:
-    print("Adding pepperoni.")
-    
-print("\n Finished making your pizza!")
-    
+if "green" in spaceship:
+    print("You just earned five points!")
+
+##requested_toppings = ["mushrooms", "extra cheese"]
+##requested_toppings.append("pepperoni")
+##
+##if "mushrooms" in requested_toppings:
+##    print("Adding mushrooms!")
+##    
+##if "pepperoni" in requested_toppings:
+##    print("Adding pepperoni.")
+##    
+##print("\n Finished making your pizza!")
+##    
 
 
 
