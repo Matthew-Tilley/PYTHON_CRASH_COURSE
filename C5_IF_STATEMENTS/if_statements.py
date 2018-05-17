@@ -1,13 +1,16 @@
 #5-3 ALIEN SPACESHIPS
 spaceship = "green"
+spaceship = "yellow"
 spaceship = "red"
 
 if "green" in spaceship:
-    print("You just earned five points!")
+    print("You earned FIVE points.")
+
+elif "yellow" in spaceship:
+    print("You earned TEN points.")
     
-elif "yellow" or "red" in spaceship:
-    print("You just earned TEN points!")
-    
+else:
+    print("You earned FIFTEEN points!!!")
 
           
 
