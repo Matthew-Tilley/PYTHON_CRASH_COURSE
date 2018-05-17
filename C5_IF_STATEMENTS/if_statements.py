@@ -1,9 +1,14 @@
-tester = "Apple"
+requested_topping = "mushrooms"
 
-if tester.lower() == "apple":
-    print(True);
+if requested_topping != "anchovies":
+    print("Hold the anchovies!")
     
-print(tester)
+##tester = "Apple"
+##
+##if tester.lower() == "apple":
+##    print(True);
+##    
+##print(tester)
 
 
 ##if "Audi" == 'audi':
