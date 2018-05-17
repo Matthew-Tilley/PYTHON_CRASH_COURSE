@@ -1,8 +1,20 @@
-flub = 63
-dub = 99
+thing_1 = "blue"
 
-if flub % 2 >0 and dub % 2 >0:
-    print("Yay!")
+thing_2 = "orange"
+
+if thing_1 == "blue" or thing_2 == "orange":
+    print("Yep.")
+    
+if (thing_1 != "purple") or (thing_2 != "red"):
+    print("Blurrpppsszzz.")
+
+
+##flub = 63
+##dub = 99
+##
+##if flub % 2 >0 and dub % 2 >0:
+##    print("Yay!")
+
 
 ##answer = 17
 ##
