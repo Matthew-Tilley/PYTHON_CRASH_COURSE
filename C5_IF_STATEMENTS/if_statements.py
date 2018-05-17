@@ -2,6 +2,8 @@ tester = "Apple"
 
 if tester.lower() == "apple":
     print(True);
+    
+print(tester)
 
 
 ##if "Audi" == 'audi':
