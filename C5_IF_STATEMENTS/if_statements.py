@@ -1,10 +1,18 @@
-toppings = ["mushrooms", "onions", "pineapple"]
+banned_users = ["andrew", "carolina", "david"]
 
-if "sausage" in toppings:
-    print(True)
-    
-elif "mushrooms" in toppings:
-    print(True)
+user = "marie"
+
+if user not in banned_users:
+    print("Hello " + user + " your comment will be submitted.")
+
+
+##toppings = ["mushrooms", "onions", "pineapple"]
+##
+##if "sausage" in toppings:
+##    print(True)
+##    
+##elif "mushrooms" in toppings:
+##    print("No sausage here!")
 
 
 ##thing_1 = "blue"
