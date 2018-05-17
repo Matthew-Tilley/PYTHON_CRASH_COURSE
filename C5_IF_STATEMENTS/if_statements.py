@@ -1,9 +1,15 @@
-age = 18
+answer = 17
 
-if age == 18:
-    print("You are allowed.")
-else:
-    print("Nope.")
+if answer != 42:
+    print("Nada.")
+
+
+##age = 18
+##
+##if age == 18:
+##    print("You are allowed.")
+##else:
+##    print("Nope.")
 
 
 
