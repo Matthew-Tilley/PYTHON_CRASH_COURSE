@@ -1,7 +1,17 @@
-requested_topping = "mushrooms"
+age = 18
 
-if requested_topping != "anchovies":
-    print("Hold the anchovies!")
+if age == 18:
+    print("You are allowed.")
+else:
+    print("Nope.")
+
+
+
+##requested_topping = "mushrooms"
+##
+##if requested_topping != "anchovies":
+##    print("Hold the anchovies!")
+
     
 ##tester = "Apple"
 ##
