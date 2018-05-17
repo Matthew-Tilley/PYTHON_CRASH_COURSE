@@ -1,4 +1,19 @@
-bird = "has feathers."
+def checker(age):
+    if age < 4:
+        print("Admission is free!")
+    
+    elif age >= 4 and age <18:
+        print("Admission is five dollars.")
+    
+    else:
+        print("Admission is ten dollars.")
+    
+##    else age > 18:
+##            print("Admission is ten dollars.")
+
+checker(44)
+
+##bird = "has feathers."
 
 ##if "has feathers" in bird:
 ##    print(True)
@@ -7,7 +22,7 @@ bird = "has feathers."
 ##if "has shell" in turtle:
 ##    print("Turtles have shells.")
     
-inventory = ["bmw", "chevrolet", "ford", "nissan"]
+##inventory = ["bmw", "chevrolet", "ford", "nissan"]
 
 ##if "ford" in inventory:
 ##    print("Gobble-gobble!")
@@ -28,8 +43,8 @@ inventory = ["bmw", "chevrolet", "ford", "nissan"]
 ##    if "chevrolet" in inventory:
 ##        print("YAY!")
 
-if "oldsmobile" not in inventory:
-    print("Nadazipzilch, bro.")
+##if "oldsmobile" not in inventory:
+##    print("Nadazipzilch, bro.")
     
 
 
