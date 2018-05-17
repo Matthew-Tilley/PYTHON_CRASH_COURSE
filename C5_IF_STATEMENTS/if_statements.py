@@ -1,7 +1,13 @@
-answer = 17
+flub = 63
+dub = 99
 
-if answer != 42:
-    print("Nada.")
+if flub % 2 >0 and dub % 2 >0:
+    print("Yay!")
+
+##answer = 17
+##
+##if answer != 42:
+##    print("Nada.")
 
 
 ##age = 18
