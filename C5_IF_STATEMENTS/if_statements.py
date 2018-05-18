@@ -1,18 +1,44 @@
 
-requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
 
-for topping in requested_toppings:
+
+
+
+##depleted_toppings = ["bacon", "sausage", "anchovies", "green peppers"]
+##
+##requested_items = ["extra cheese", "green peppers", "mushrooms"]
+##
+##withheld_items = []
+##
+##for RI in requested_items:
+##    
+##    for DP in depleted_toppings:
+##        
+##        if DP == RI:
+##            print(DP + " - not available.")
+##            
+##            x = withheld_items.append(DP)
+##            
+##            requested_items.pop(DP)
+##            
     
-   if requested_topping == "green peppers":
-       print("Sorry, we're out of green peppers at the moment.")
-       
-    else:
-        print("Adding " + requested_topping + ".")
     
-    
+           
+
+            
 
 
 
+
+##requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
+##
+##for topping in requested_toppings:
+##    
+##   if requested_topping == "green peppers":
+##       print("Sorry, we're out of green peppers at the moment.")
+##       
+##    else:
+##        print("Adding " + requested_topping + ".")
+      
 
 ##requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
 ##
