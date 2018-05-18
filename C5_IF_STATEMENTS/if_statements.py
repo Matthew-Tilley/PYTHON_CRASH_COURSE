@@ -1,8 +1,8 @@
 #5-8 HELLO ADMIN
 
-#username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
+username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
 
-username = []
+##username = []
 
 if username == []:
     print("Your login information does not match our records.")
@@ -17,6 +17,9 @@ else:
             print("Hello " + user.title() + " glad you stopped by!")
         
 
+for user in username:
+    print("Removing " + user.title())
+    username.remove(user)
 
 
 
