@@ -1,22 +1,28 @@
-#5-7 FAVORITE FRUIT
+cars = ["chevy", "toyota", "pontiac", "bmw"]
 
-veggies = ["broccoli", "avacado", "tomato", "onion", "potato"]
+for car in cars:
+    if car == "bmw":
+        print(car.upper())
 
-if "broccoli" in veggies:
-    print("I love broccoli.")
-    
-if "avacado" in veggies:
-    print("I adore avacado.")
-    
-if "tomato" in veggies:
-    print("I really like tomato.")
-    
-if "onion" in veggies:
-    print("Onion is terrific!")
-
-if "potato" in veggies:
-    print("Love, love, love me some potatoes!!!")
-
+###5-7 FAVORITE FRUIT
+##
+##veggies = ["broccoli", "avacado", "tomato", "onion", "potato"]
+##
+##if "broccoli" in veggies:
+##    print("I love broccoli.")
+##    
+##if "avacado" in veggies:
+##    print("I adore avacado.")
+##    
+##if "tomato" in veggies:
+##    print("I really like tomato.")
+##    
+##if "onion" in veggies:
+##    print("Onion is terrific!")
+##
+##if "potato" in veggies:
+##    print("Love, love, love me some potatoes!!!")
+##
 
 ###5-6 STAGE OF LIFE TESTER
 ##
