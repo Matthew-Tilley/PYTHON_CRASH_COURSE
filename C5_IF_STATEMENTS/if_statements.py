@@ -3,7 +3,13 @@ alien_0 = {
     "points": 5
 }
 
-print(alien_0['color'])
+#print(alien_0['color'])
+
+print(alien_0["color"])
+
+new_points = alien_0["points"]
+
+print(new_points)
 
         
 
