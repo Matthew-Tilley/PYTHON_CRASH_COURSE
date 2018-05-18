@@ -13,7 +13,9 @@ for num in numz:
     if num == 3:
         print(str(num) + "rd")
         
-    if num == 4 or num == 5 or num == 6 or num == 7 or num == 8 or num == 9:
+##    if num == 4 or num == 5 or num == 6 or num == 7 or num == 8 or num == 9:
+##        print(str(num) + "th")
+    if num >= 4 and num < 10:
         print(str(num) + "th")
         
     
