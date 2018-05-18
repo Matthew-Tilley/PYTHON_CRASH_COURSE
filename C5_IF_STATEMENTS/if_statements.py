@@ -1,9 +1,25 @@
+
 requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
 
-for each in requested_toppings:
-    print("Adding " + each + ".")
+for topping in requested_toppings:
     
-print("\nFinished making your pizza!")
+   if requested_topping == "green peppers":
+       print("Sorry, we're out of green peppers at the moment.")
+       
+    else:
+        print("Adding " + requested_topping + ".")
+    
+    
+
+
+
+
+##requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
+##
+##for each in requested_toppings:
+##    print("Adding " + each + ".")
+##    
+##print("\nFinished making your pizza!")
 
 
 ##cars = ["chevy", "toyota", "pontiac", "bmw"]
