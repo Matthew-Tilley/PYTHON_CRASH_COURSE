@@ -5,7 +5,7 @@ current_users = ["joe", "jeff", "jane", "jill", "randy", "jean"]
 new_users = ["bill", "bob", "lynette", "angie", "george", "joe", "randy"]
 
 def current_users():
-    print("LKAJSD" * 33)
+    print("LKAJSD\n" * 33)
     
 current_users()
 
