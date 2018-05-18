@@ -1,13 +1,31 @@
-#5-10 CHECKING USERNAMES
+#5-11 ORDINAL NUMBERS
 
-current_users = ["joe", "jeff", "jane", "jill", "randy", "jean"]
+numz = [1,2,3,4,5,6,7,8,9]
 
-new_users = ["bill", "bob", "lynette", "angie", "george", "joe", "randy"]
-
-def current_users():
-    print("LKAJSD\n" * 33)
+for num in numz:
     
-current_users()
+    if num == 1:
+        print(str(num) + "st")
+    
+    if num == 2:
+        print(str(num) + "nd")
+    
+    if num == 3:
+        print(str(num) + "rd")
+        
+    if num == 4 or num == 5 or num == 6 or num == 7 or num == 8 or num == 9:
+        print(str(num) + "th")
+        
+    
+
+
+
+
+###5-10 CHECKING USERNAMES
+##
+##current_users = ["joe", "jeff", "jane", "jill", "randy", "jean"]
+##
+##new_users = ["bill", "bob", "lynette", "angie", "george", "joe", "randy"]
 
 
 
