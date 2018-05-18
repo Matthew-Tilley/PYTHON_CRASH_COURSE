@@ -1,12 +1,28 @@
+available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pineapple", "extra cheese"]
+
+requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+
+for requested_topping in requested_toppings:
+    
+    if requested_topping in available_toppings:
+        
+        print("Adding " + requested_topping)
+        
+    else:
+        print("Sorry, we don't have " + requested_topping + " as an available topping.")
+        
+print("\n\nFinished making your pizza!")
+        
+        
 
 #requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
-requested_toppings = []
-
-if requested_toppings:
-    for requested_topping in requested_toppings:
-        print("Adding " + requested_topping + ".")
-else:
-    print("Are you sure you want a plain pizza?")
+##requested_toppings = []
+##
+##if requested_toppings:
+##    for requested_topping in requested_toppings:
+##        print("Adding " + requested_topping + ".")
+##else:
+##    print("Are you sure you want a plain pizza?")
 
 
 ##for requested_topping in requested_toppings:
@@ -22,7 +38,7 @@ else:
 ##    
     
 
-print("\nFinished making your pizza!")
+#print("\nFinished making your pizza!")
 
 
 
