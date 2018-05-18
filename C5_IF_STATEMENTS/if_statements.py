@@ -1,18 +1,37 @@
-available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pineapple", "extra cheese"]
+#5-8 HELLO ADMIN
 
-requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
 
-for requested_topping in requested_toppings:
+for user in username:
     
-    if requested_topping in available_toppings:
-        
-        print("Adding " + requested_topping)
-        
+    if user == "":
+        print("Your login information does not match our records.")
+    
+    if user == "admin":
+        print("Hello, ADMIN...would you like to see a status report?")
+    
     else:
-        print("Sorry, we don't have " + requested_topping + " as an available topping.")
+        print("Hello " + user.title() + " glad you stopped by!")
         
-print("\n\nFinished making your pizza!")
-        
+
+
+
+
+##available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pineapple", "extra cheese"]
+##
+##requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+##
+##for requested_topping in requested_toppings:
+##    
+##    if requested_topping in available_toppings:
+##        
+##        print("Adding " + requested_topping)
+##        
+##    else:
+##        print("Sorry, we don't have " + requested_topping + " as an available topping.")
+##        
+##print("\n\nFinished making your pizza!")
+##        
         
 
 #requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
