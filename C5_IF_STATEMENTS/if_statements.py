@@ -2,10 +2,12 @@
 
 username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
 
+username = []
+
+if username == []:
+    print("Your login information does not match our records.")
+
 for user in username:
-    
-    if user == "":
-        print("Your login information does not match our records.")
     
     if user == "admin":
         print("Hello, ADMIN...would you like to see a status report?")
