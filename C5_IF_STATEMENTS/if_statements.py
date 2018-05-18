@@ -1,25 +1,52 @@
-#5-8 HELLO ADMIN
+#5-10 CHECKING USERNAMES
 
-username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
+current_users = ["joe", "jeff", "jane", "jill", "randy", "jean"]
 
-##username = []
+new_users = ["bill", "bob", "lynette", "angie", "george", "joe", "randy"]
 
-if username == []:
-    print("Your login information does not match our records.")
-
-else:
-    for user in username:
+for newUser in new_users:
+    
+    for currUser in current_users:
         
-        if user == "admin":
-            print("Hello, ADMIN...would you like to see a status report?")
+        if newUser == currUser:
+            
+            print("Sorry, " + newUser.title() + " ...that login is already in use; please choose another username.")
+            new_users.remove(newUser)
+            pass
+           
         
         else:
-            print("Hello " + user.title() + " glad you stopped by!")
+            pass
+
+    print(newUser.title() + ": Available")
+        
         
 
-for user in username:
-    print("Removing " + user.title())
-    username.remove(user)
+
+
+
+###5-8 HELLO ADMIN
+##
+##username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
+##
+####username = []
+##
+##if username == []:
+##    print("Your login information does not match our records.")
+##
+##else:
+##    for user in username:
+##        
+##        if user == "admin":
+##            print("Hello, ADMIN...would you like to see a status report?")
+##        
+##        else:
+##            print("Hello " + user.title() + " glad you stopped by!")
+##        
+
+##for user in username:
+##    print("Removing " + user.title())
+##    username.remove(user)
 
 
 
