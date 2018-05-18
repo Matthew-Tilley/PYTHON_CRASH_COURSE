@@ -4,21 +4,28 @@ current_users = ["joe", "jeff", "jane", "jill", "randy", "jean"]
 
 new_users = ["bill", "bob", "lynette", "angie", "george", "joe", "randy"]
 
-for newUser in new_users:
+def current_users():
+    print("LKAJSD" * 33)
     
-    for currUser in current_users:
-        
-        if newUser == currUser:
-            
-            print("Sorry, " + newUser.title() + " ...that login is already in use; please choose another username.")
-            new_users.remove(newUser)
-            pass
-           
-        
-        else:
-            pass
+current_users()
 
-    print(newUser.title() + ": Available")
+
+
+##for newUser in new_users:
+##    
+##    for currUser in current_users:
+##        
+##        if newUser == currUser:
+##            
+##            print("Sorry, " + newUser.title() + " ...that login is already in use; please choose another username.")
+##            new_users.remove(newUser)
+##            pass
+##           
+##        
+##        else:
+##            pass
+##
+##    print(newUser.title() + ": Available")
         
         
 
