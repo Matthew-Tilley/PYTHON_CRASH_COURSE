@@ -9,7 +9,7 @@ print(alien_0["color"])
 
 new_points = alien_0["points"]
 
-print(new_points)
+print("You just earned " + str(new_points) + " points!")
 
         
 
