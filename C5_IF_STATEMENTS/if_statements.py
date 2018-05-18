@@ -1,19 +1,20 @@
 #5-8 HELLO ADMIN
 
-username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
+#username = ["joe", "jane", "jeff", "jenny", "ralph", "admin"]
 
 username = []
 
 if username == []:
     print("Your login information does not match our records.")
 
-for user in username:
-    
-    if user == "admin":
-        print("Hello, ADMIN...would you like to see a status report?")
-    
-    else:
-        print("Hello " + user.title() + " glad you stopped by!")
+else:
+    for user in username:
+        
+        if user == "admin":
+            print("Hello, ADMIN...would you like to see a status report?")
+        
+        else:
+            print("Hello " + user.title() + " glad you stopped by!")
         
 
 
