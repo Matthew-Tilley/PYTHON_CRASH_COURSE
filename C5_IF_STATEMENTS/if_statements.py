@@ -1,8 +1,17 @@
-cars = ["chevy", "toyota", "pontiac", "bmw"]
+requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
 
-for car in cars:
-    if car == "bmw":
-        print(car.upper())
+for each in requested_toppings:
+    print("Adding " + each + ".")
+    
+print("\nFinished making your pizza!")
+
+
+##cars = ["chevy", "toyota", "pontiac", "bmw"]
+##
+##for car in cars:
+##    if car == "bmw":
+##        print(car.upper())
+
 
 ###5-7 FAVORITE FRUIT
 ##
